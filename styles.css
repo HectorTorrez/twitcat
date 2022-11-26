@@ -508,6 +508,7 @@ body {
 }
 
 .footer {
+    
     display: flex;
     height: 4rem;
     fill: white;
@@ -759,6 +760,7 @@ body {
         height: 20px;
     }
     .footer {
+        position: fixed;
         display: flex;
         flex-direction: column;
         top: 0px;
@@ -853,6 +855,7 @@ body {
     .body {
         display: flex;
         max-width: 36rem;
+        width: 100%;
     }
     .trends {
         display: block;
@@ -938,6 +941,9 @@ body {
     .messages div {
         right: 111px;
     }
+    .footer{
+        position: fixed;
+    }
 }
 
 @media(min-width: 1096px) {
@@ -962,12 +968,12 @@ body {
     }
     .body {
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        width: 100%;
+        width: 100vw;
         margin-left: 0;
         margin-right: 0;
     }
+    
     .aside-tweets {
         position: absolute;
         left: 4rem;
@@ -983,6 +989,7 @@ body {
         width: 13rem;
     }
     .footer {
+        position: fixed;
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
@@ -1101,6 +1108,13 @@ body {
         left: 6rem;
         height: 39rem;
     }
+    .footer{
+        position: fixed;
+        left: 100px;
+    }
+    .body{
+        width: 100vw;
+    }
 }
 
 @media(min-width: 1440px) {
@@ -1109,5 +1123,12 @@ body {
     }
     .suggestion-follows {
         width: 20rem;
+    }
+    .footer{
+        position: fixed;
+        left: 400px;
+    }
+    .body{
+        width: 100vw;
     }
 }
