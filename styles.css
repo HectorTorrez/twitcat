@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;
     color: #fff;
     text-decoration: none;
+    box-sizing: border-box;
+
+
+    
 }
 
  :root {
@@ -20,6 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    width: 100%;
 }
 
 .nav {
@@ -433,7 +438,6 @@ body {
 .body {
     display: flex;
     width: auto;
-    padding: 0 1rem;
     padding-top: 0.5rem;
     padding-bottom: 1rem;
     box-shadow: 0 0 1px var(--colorsecondary);
@@ -455,7 +459,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-left: 0.5rem;
-    width: auto;
+    width: 100%;
 }
 
 .body-content-names {
@@ -689,7 +693,7 @@ body {
         max-width: 600px;
         margin-left: 100px;
         margin-right: auto;
-        width: 90%;
+        width: 75%;
         height: auto;
         box-shadow: 0 0 1px var(--colorsecondary);
     }
@@ -734,7 +738,7 @@ body {
         max-width: 600px;
         margin-left: 100px;
         margin-right: auto;
-        width: 90%;
+        width: 75%;
     }
     .body-content {
         width: 100%;
@@ -1126,7 +1130,7 @@ body {
     }
     .footer{
         position: fixed;
-        left: 400px;
+        left: 200px;
     }
     .body{
         width: 100vw;
